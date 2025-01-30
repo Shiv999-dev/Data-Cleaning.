@@ -7980,6 +7980,43 @@ Name: Screen Time (hrs/day), dtype: float64</pre>
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=cfcf15a1-3e43-4121-a765-4180a9c08a17">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [39]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'Location'</span><span class="p">)[</span><span class="s1">'Screen Time (hrs/day)'</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[39]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>Location
+Ahmedabad    11716.5
+Bangalore    11738.5
+Chennai      11684.9
+Delhi        11480.7
+Hyderabad    11212.7
+Jaipur       12136.0
+Kolkata      11471.7
+Lucknow      11184.0
+Mumbai       11057.0
+Pune         12097.2
+Name: Screen Time (hrs/day), dtype: float64</pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=036c09b5-73ab-4bf3-8e46-d74f80d330eb">
 <div class="jp-Cell-inputWrapper" tabindex="0">
